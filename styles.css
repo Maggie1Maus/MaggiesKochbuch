@@ -16,6 +16,11 @@
     color: var(--primary-color);
 }
 
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
 h1 {
     font-family: "Kranky", serif;
     font-size: 2.5rem;
