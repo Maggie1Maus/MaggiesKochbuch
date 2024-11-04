@@ -10,8 +10,6 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     font-family: "Calibri Light", sans-serif;
     color: var(--primary-color);
 }
@@ -24,6 +22,21 @@
 h1 {
     font-family: "Kranky", serif;
     font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    color: var(--primary-color);
+    background-color: var(--beige-color);
+    transition: background-color 0.3s ease;
+    border: 0.063rem solid var(--beige-color);
+    border-radius: 50rem;
+    font-size: 0.8rem;
+
+    &:hover {
+        background-color: var(--beige-dark-color);
+    }
 }
 
 .header-area {
@@ -52,11 +65,7 @@ h1 {
         padding: .5rem 1rem;
         color: white;
         background-color: var(--secondary-color);
-        transition: background-color 0.3s ease;
         border: 0.063rem solid var(--secondary-color);
-        border-radius: 50rem;
-        text-decoration: none;
-        font-size: .8rem;
         margin-left: 1rem;
 
         &:hover {
@@ -170,14 +179,6 @@ h1 {
 
                 a {
                     margin-top: 1rem;
-                    padding: 0.5rem 2rem;
-                    color: var(--primary-color);
-                    background-color: var(--beige-color);
-                    transition: background-color 0.3s ease;
-                    border: 0.063rem solid var(--beige-color);
-                    border-radius: 50rem;
-                    text-decoration: none;
-                    font-size: 0.8rem;
 
                     &:hover {
                         background-color: var(--beige-dark-color);
@@ -237,7 +238,6 @@ h1 {
         transition: background-color 0.3s ease;
         border: 0.063rem solid var(--beige-color);
         border-radius: 50rem;
-        text-decoration: none;
         font-size: 0.8rem;
         max-width: 50%;
 

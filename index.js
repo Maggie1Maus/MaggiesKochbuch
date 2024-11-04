@@ -3,7 +3,7 @@ const recipes = [
     {
         title: "Bauerneintopf",
         image: "/images/gemueseeintopf-mit-wintergemuese-featured-720x720.jpg",
-        link: "#"
+        link: "rezeptseite.html"
     },
     {
         title: "Gemüseauflauf",
