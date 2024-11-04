@@ -14,10 +14,22 @@
                 <h1>Maggies & Thorbens Kochbuch</h1>
             </div>
             <div>
-                <a href="#">
-                    <img src="images/plus.svg">
+                <a href="#" id="openOverlay">
+                    <img src="images/plus.svg" alt="Plus Icon">
                     Neues Rezept hinzufügen
                 </a>
+            </div>
+
+            <div id="overlay" class="overlay">
+                <div class="overlay-content">
+                    <span id="closeOverlay" class="close">&times;</span>
+                    <h2>Neues Rezept</h2>
+                    <form>
+                        <input type="text" placeholder="Rezeptname">
+                        <textarea placeholder="Zutaten"></textarea>
+                        <button type="submit">Speichern</button>
+                    </form>
+                </div>
             </div>
         </div>
 

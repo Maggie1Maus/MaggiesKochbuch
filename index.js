@@ -1,3 +1,4 @@
+//###### Rezeptliste ########
 const recipes = [
     {
         title: "Bauerneintopf",
@@ -37,3 +38,39 @@ function displayRecipes() {
 }
 
 displayRecipes();
+
+
+//###### Overlay ########
+document.addEventListener("DOMContentLoaded", function() {
+    const openOverlayButton = document.getElementById("openOverlay");
+    const closeOverlayButton = document.getElementById("closeOverlay");
+    const overlay = document.getElementById("overlay");
+
+    if (openOverlayButton) {
+        openOverlayButton.onclick = function(event) {
+            event.preventDefault();
+            overlay.style.display = "block";
+            console.log("Overlay geöffnet"); // Testausgabe
+        }
+    } else {
+        console.error("Element mit ID 'openOverlay' nicht gefunden.");
+    }
+
+    if (closeOverlayButton) {
+        closeOverlayButton.onclick = function() {
+            overlay.style.display = "none";
+            console.log("Overlay geschlossen"); // Testausgabe
+        }
+    } else {
+        console.error("Element mit ID 'closeOverlay' nicht gefunden.");
+    }
+
+    window.onclick = function(event) {
+        if (event.target == overlay) {
+            overlay.style.display = "none";
+            console.log("Overlay durch Klick außerhalb geschlossen"); // Testausgabe
+        }
+    }
+});
+
+
