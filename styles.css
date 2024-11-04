@@ -1,7 +1,7 @@
 :root {
     --primary-color: #42413f;
     --secondary-color: #a27a61;
-    --secondary-ligt-color: #f2e8e3;
+    --secondary-light-color: #f2e8e3;
     --secondary-dark-color: #735744;
     --beige-color: #e5d1c6;
     --beige-dark-color: #c9b7ad;
@@ -28,6 +28,17 @@ h1 {
     justify-content: space-between;
     align-items: center;
 
+    @media screen and (max-width: 640px) {
+        flex-direction: column;
+
+        .title {
+            h1 {
+                margin-bottom: 40px;
+                text-align: center;
+            }
+        }
+    }
+
     a {
         display: flex;
         flex-direction: row;
@@ -41,9 +52,14 @@ h1 {
         border-radius: 50rem;
         text-decoration: none;
         font-size: .8rem;
+        margin-left: 1rem;
 
         &:hover {
             background-color: var(--secondary-dark-color);
+        }
+
+        @media screen and (max-width: 640px) {
+            margin-left: 0;
         }
     }
 }
@@ -69,16 +85,30 @@ h1 {
         flex-direction: column;
         gap: .5rem;
         align-items: center;
+
+        @media screen and (max-width: 480px) {
+            font-size: 14px;
+        }
     }
 
     .kategorien-tile {
         border-radius: 50px;
         width: 100px;
         height: 100px;
-        overflow: hidden; /* Versteckt den Überlauf */
-        display: flex; /* Fügt Flexbox für das Bild hinzu */
-        justify-content: center; /* Zentriert das Bild horizontal */
-        align-items: center; /* Zentriert das Bild vertikal */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            width: 80px;
+            height: 80px;
+        }
+
+        @media screen and (max-width: 480px) {
+            width: 60px;
+            height: 60px;
+        }
     }
 
     .kategorien-tile img {
@@ -93,17 +123,25 @@ h1 {
     margin: 2.5rem;
 
     .content {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Standard: einspaltig */
+        gap: 1rem; /* Abstände zwischen den Tiles */
+
+        @media screen and (min-width: 640px) and (max-width: 1024px) {
+            grid-template-columns: repeat(2, 1fr); /* Tablet: zwei nebeneinander */
+        }
+
+        @media screen and (min-width: 1025px) {
+            grid-template-columns: repeat(3, 1fr); /* Desktop: drei nebeneinander */
+        }
 
         .tile {
-            border: 1px solid var(--secondary-ligt-color);
+            border: 1px solid var(--secondary-light-color);
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            width: 100%;
+            width: 100%; /* Breite 100% im Grid */
 
             .tile-picture {
                 width: 100%;
@@ -127,14 +165,14 @@ h1 {
 
                 a {
                     margin-top: 1rem;
-                    padding: .5rem 2rem;
+                    padding: 0.5rem 2rem;
                     color: var(--primary-color);
                     background-color: var(--beige-color);
                     transition: background-color 0.3s ease;
                     border: 0.063rem solid var(--beige-color);
                     border-radius: 50rem;
                     text-decoration: none;
-                    font-size: .8rem;
+                    font-size: 0.8rem;
 
                     &:hover {
                         background-color: var(--beige-dark-color);
@@ -144,3 +182,4 @@ h1 {
         }
     }
 }
+
