@@ -2,91 +2,41 @@
   {
     "id": "flammkuchenbrötchen",
     "title": "Flammkuchenbrötchen",
-    "image": "/images/gemueseeintopf-mit-wintergemuese-featured-720x720.jpg",
+    "image": "/images/Flammkuchenbroetchen.png",
     "detailLink": "detail.html?recipe=flammkuchenbroetchen",
     "ingredients": [
-      "500g Mehl",
-      "300ml Wasser",
-      "200g Schmand",
-      "1 Zwiebel",
-      "150g Speck"
+      "Aufbackbrötchen",
+      "1x Creme Faiche",
+      "100g - 150g Baconwürfel",
+      "Schnittlauch TK"
     ],
     "instructions": [
-      "Teig herstellen und ausrollen.",
-      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
-      "Im Ofen bei 200°C 15-20 Minuten backen."
-    ]
-  },
-  {
-    "id": "datteldip",
-    "title": "Datteldip",
-    "image": "/images/gemueseauflauf_1.jpg",
-    "detailLink": "detail.html?recipe=datteldip",
-    "ingredients": [
-      "500g Mehl",
-      "300ml Wasser",
-      "200g Schmand",
-      "1 Zwiebel",
-      "150g Speck"
-    ],
-    "instructions": [
-      "Teig herstellen und ausrollen.",
-      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
-      "Im Ofen bei 200°C 15-20 Minuten backen."
-    ]
-  },
-  {
-    "id": "wraps",
-    "title": "Wraps",
-    "image": "/images/kartoffelsalat_mit_joghurt_8947.jpg",
-    "detailLink": "detail.html?recipe=wraps",
-    "ingredients": [
-      "500g Mehl",
-      "300ml Wasser",
-      "200g Schmand",
-      "1 Zwiebel",
-      "150g Speck"
-    ],
-    "instructions": [
-      "Teig herstellen und ausrollen.",
-      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
-      "Im Ofen bei 200°C 15-20 Minuten backen."
-    ]
-  },
-  {
-    "id": "fladenbrotmitsucuc",
-    "title": "Fladenbrot mit Sucuc, Frischkäse und Schafskäse",
-    "image": "/images/kartoffelsalat_mit_joghurt_8947.jpg",
-    "detailLink": "detail.html?recipe=fladenbrotmitsucuc",
-    "ingredients": [
-      "500g Mehl",
-      "300ml Wasser",
-      "200g Schmand",
-      "1 Zwiebel",
-      "150g Speck"
-    ],
-    "instructions": [
-      "Teig herstellen und ausrollen.",
-      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
-      "Im Ofen bei 200°C 15-20 Minuten backen."
+      "Alle Zutaten außer die Brötchen vermengen",
+      "Brötchen aufschneiden und auf dem Backblech platzieren",
+      "Belag auf den Brötchen verteilen",
+      "Bei 180 Grad in den Ofen schieben bis die Brötchen goldbraun werden"
     ]
   },
   {
     "id": "kartoffelgratin",
     "title": "Kartoffelgratin",
-    "image": "/images/kartoffelsalat_mit_joghurt_8947.jpg",
+    "image": "/images/kartoffelgratin2.png",
     "detailLink": "detail.html?recipe=kartoffelgratin",
     "ingredients": [
-      "500g Mehl",
-      "300ml Wasser",
-      "200g Schmand",
-      "1 Zwiebel",
-      "150g Speck"
+      "ca. 750g Kartoffeln",
+      "200ml Sahne",
+      "200ml Milch",
+      "100 - 150g Baconwürfel",
+      "2 TL Gemüsebrühe",
+      "Muskatnuss",
+      "geriebenen Käse nach Bedarf"
     ],
     "instructions": [
-      "Teig herstellen und ausrollen.",
-      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
-      "Im Ofen bei 200°C 15-20 Minuten backen."
+      "Kartoffeln in dünne Scheiben schneiden/raspeln direkt in die Backschale des Optigrills",
+      "Milch und Sahne zusammenschütten und Gemüsebrühe hinzugeben und verrühren und mit Salz, Pfeffer und Muskatpulver würzen",
+      "Mischung gleichmäßig verteilt in Backschale gießen",
+      "OptiGrill schließen und den manuellen Modus in der Stufe orange wählen",
+      "Nach 40 Minuten die Speckwürfel und den Streukäse drüberstreuen und für weitere 20 Minuten bei Stufe orange drinlassen"
     ]
   }
 ]
