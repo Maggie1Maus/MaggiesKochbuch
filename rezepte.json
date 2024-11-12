@@ -18,25 +18,28 @@
     ]
   },
   {
-    "id": "kartoffelgratin",
-    "title": "Kartoffelgratin",
-    "image": "images/kartoffelgratin2.png",
-    "detailLink": "detail.html?recipe=kartoffelgratin",
+    "id": "huehnersuppe",
+    "title": "Hühnersuppe",
+    "image": "images/huehnersuppe.png",
+    "detailLink": "detail.html?recipe=huehnersuppe",
     "ingredients": [
-      "ca. 750g Kartoffeln",
-      "200ml Sahne",
-      "200ml Milch",
-      "100 - 150g Baconwürfel",
-      "2 TL Gemüsebrühe",
-      "Muskatnuss",
-      "geriebenen Käse nach Bedarf"
+      "Hähnchenschenkel mindestens 2",
+      "3l Gemüse-/Hühnerbrühe",
+      "Suppengemüse",
+      "1x Zwiebel",
+      "2x Knoblauchzehen",
+      "Ingwer ca. so dick wie mein kleiner Finger"
     ],
     "instructions": [
-      "Kartoffeln in dünne Scheiben schneiden/raspeln direkt in die Backschale des Optigrills",
-      "Milch und Sahne zusammenschütten und Gemüsebrühe hinzugeben und verrühren und mit Salz, Pfeffer und Muskatpulver würzen",
-      "Mischung gleichmäßig verteilt in Backschale gießen",
-      "OptiGrill schließen und den manuellen Modus in der Stufe orange wählen",
-      "Nach 40 Minuten die Speckwürfel und den Streukäse drüberstreuen und für weitere 20 Minuten bei Stufe orange drinlassen"
+      "Hähnchenschenkel ca. 1h im klaren Wasser kochen",
+      "In der Zwischenzeit alles an Gemüse klein schneiden",
+      "Schenkel aus dem Wasser nehmen und prüfen, ob das Fleisch durch ist",
+      "Hähnchen bei Seite stellen",
+      "Gemüse in das Wasser schmeißen",
+      "Köcheln lassen bis alles recht weich ist aber bissfest",
+      "In der Zwischenzeit von den Schenkeln das Fleisch in kleinen Stücken abrupfen und in den Topf tun, wo auch das Gemüse ist",
+      "So viel Gemüsebrühe hinzufügen, wie ca. Wasser im Topf ist. Zur Not erstmal mit weniger Brühe starten und abschmecken",
+      "Alles köcheln lassen bis die gewünschte Bissfestigkeit erreicht wurde"
     ]
   }
 ]
