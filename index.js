@@ -1,24 +1,10 @@
-//###### Rezeptliste ########
-const recipes = [
-    {
-        title: "Bauerneintopf",
-        image: "/images/gemueseeintopf-mit-wintergemuese-featured-720x720.jpg",
-        link: "rezeptseite.html"
-    },
-    {
-        title: "Gemüseauflauf",
-        image: "/images/gemueseauflauf_1.jpg",
-        link: "#"
-    },
-    {
-        title: "Kartoffelsalat",
-        image: "/images/kartoffelsalat_mit_joghurt_8947.jpg",
-        link: "#"
-    }
-];
+// Container-Element abrufen
+const recipeContainer = document.getElementById('recipeContainer');
 
-function displayRecipes() {
+// Funktion zum Anzeigen der Rezepte
+function displayRecipes(recipes) {
     const container = document.getElementById('recipeContainer');
+    container.innerHTML = ''; // Container leeren, falls nötig
     recipes.forEach(recipe => {
         const tile = document.createElement('div');
         tile.classList.add('tile');
@@ -37,7 +23,34 @@ function displayRecipes() {
     });
 }
 
-displayRecipes();
+// Rezepte aus JSON laden und die Anzeige starten
+fetch('rezepte.json')
+    .then(response => response.json())
+    .then(recipes => {
+        const container = document.getElementById('recipeContainer');
+        recipes.forEach(recipe => {
+            const tile = document.createElement('div');
+            tile.classList.add('tile');
+            tile.innerHTML = `
+                <div class="tile-picture">
+                    <img src="${recipe.image}" alt="${recipe.title}">
+                </div>
+                <div class="tile-text">
+                    <h3>${recipe.title}</h3>
+                    <!-- Detail-Link führt auf die einzige Detailseite mit einem Rezept-ID-Parameter -->
+                    <a href="rezeptDetailSeite.html?recipe=${recipe.id}">Zum Rezept</a>
+                </div>
+            `;
+            container.appendChild(tile);
+        });
+    })
+    .catch(error => {
+        console.error('Fehler:', error);
+        const container = document.getElementById('recipeContainer');
+        container.innerHTML = '<p>Rezepte konnten nicht geladen werden.</p>';
+    });
+
+
 
 
 //###### Overlay ########

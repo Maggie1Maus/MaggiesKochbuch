@@ -1,0 +1,92 @@
+[
+  {
+    "id": "flammkuchenbrötchen",
+    "title": "Flammkuchenbrötchen",
+    "image": "/images/gemueseeintopf-mit-wintergemuese-featured-720x720.jpg",
+    "detailLink": "detail.html?recipe=flammkuchenbroetchen",
+    "ingredients": [
+      "500g Mehl",
+      "300ml Wasser",
+      "200g Schmand",
+      "1 Zwiebel",
+      "150g Speck"
+    ],
+    "instructions": [
+      "Teig herstellen und ausrollen.",
+      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
+      "Im Ofen bei 200°C 15-20 Minuten backen."
+    ]
+  },
+  {
+    "id": "datteldip",
+    "title": "Datteldip",
+    "image": "/images/gemueseauflauf_1.jpg",
+    "detailLink": "detail.html?recipe=datteldip",
+    "ingredients": [
+      "500g Mehl",
+      "300ml Wasser",
+      "200g Schmand",
+      "1 Zwiebel",
+      "150g Speck"
+    ],
+    "instructions": [
+      "Teig herstellen und ausrollen.",
+      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
+      "Im Ofen bei 200°C 15-20 Minuten backen."
+    ]
+  },
+  {
+    "id": "wraps",
+    "title": "Wraps",
+    "image": "/images/kartoffelsalat_mit_joghurt_8947.jpg",
+    "detailLink": "detail.html?recipe=wraps",
+    "ingredients": [
+      "500g Mehl",
+      "300ml Wasser",
+      "200g Schmand",
+      "1 Zwiebel",
+      "150g Speck"
+    ],
+    "instructions": [
+      "Teig herstellen und ausrollen.",
+      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
+      "Im Ofen bei 200°C 15-20 Minuten backen."
+    ]
+  },
+  {
+    "id": "fladenbrotmitsucuc",
+    "title": "Fladenbrot mit Sucuc, Frischkäse und Schafskäse",
+    "image": "/images/kartoffelsalat_mit_joghurt_8947.jpg",
+    "detailLink": "detail.html?recipe=fladenbrotmitsucuc",
+    "ingredients": [
+      "500g Mehl",
+      "300ml Wasser",
+      "200g Schmand",
+      "1 Zwiebel",
+      "150g Speck"
+    ],
+    "instructions": [
+      "Teig herstellen und ausrollen.",
+      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
+      "Im Ofen bei 200°C 15-20 Minuten backen."
+    ]
+  },
+  {
+    "id": "kartoffelgratin",
+    "title": "Kartoffelgratin",
+    "image": "/images/kartoffelsalat_mit_joghurt_8947.jpg",
+    "detailLink": "detail.html?recipe=kartoffelgratin",
+    "ingredients": [
+      "500g Mehl",
+      "300ml Wasser",
+      "200g Schmand",
+      "1 Zwiebel",
+      "150g Speck"
+    ],
+    "instructions": [
+      "Teig herstellen und ausrollen.",
+      "Mit Schmand bestreichen und mit Zwiebeln und Speck belegen.",
+      "Im Ofen bei 200°C 15-20 Minuten backen."
+    ]
+  }
+]
