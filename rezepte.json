@@ -2,7 +2,7 @@
   {
     "id": "flammkuchenbrötchen",
     "title": "Flammkuchenbrötchen",
-    "image": "/images/Flammkuchenbroetchen.png",
+    "image": "images/Flammkuchenbroetchen.png",
     "detailLink": "detail.html?recipe=flammkuchenbroetchen",
     "ingredients": [
       "Aufbackbrötchen",
@@ -20,7 +20,7 @@
   {
     "id": "kartoffelgratin",
     "title": "Kartoffelgratin",
-    "image": "/images/kartoffelgratin2.png",
+    "image": "images/kartoffelgratin2.png",
     "detailLink": "detail.html?recipe=kartoffelgratin",
     "ingredients": [
       "ca. 750g Kartoffeln",
